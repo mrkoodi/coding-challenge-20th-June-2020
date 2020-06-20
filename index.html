@@ -2,25 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Product Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="./css/microsoftproduct.css"/>
 </head>
 <body>
     <header id="header">
+      <a href="index.html">
         <img src="images/win-logo.png" alt="logo of windows" id="header-img">
-        <nav id="id=nav-bar">
+      </a>
+        <nav id="nav-bar">
             <ul>
-                <li class="nav-link"><a href="#"></a></li>
-                <li class="nav-link"><a href="#"></a></li>
-                <li class="nav-link"><a href="#"></a></li>
-                
+                <li class="nav-link"><a href="#productadds">Product</a></li>
+                <li class="nav-link"><a href="#video">Product Video Describtion</a></li>
+                <li class="nav-link"><a href="#form">Subscribe to newsletter</a></li>
+
             </ul>
         </nav>
-    </header> 
+    </header>
+
+    <div id="productadds">
+      <div class="p1">
+        <img src="./images/add1.jpg" alt="product 1"/>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec mi varius, maximus tortor eget, facilisis mi.</p>
+      </div>
+      <div class="p1">
+        <img src="./images/add2.jpg" alt="product 2"/>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec mi varius, maximus tortor eget, facilisis mi. Duis id mi ex. </p>
+      </div>
+      <div class="p1">
+        <img src="./images/add3.png" alt="product 3"/>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec mi varius, maximus tortor eget, facilisis mi. Duis id mi ex. </p>
+    </div>
+    </div>
+
     <iframe id="video"  width="560" height="315" src="https://www.youtube.com/embed/I1a3z9dP-Jk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <form id="form" action="https://www.freecodecamp.com/email-submit">
         <input inputmode="email" placeholder="Your Email Here" type="email" required>
         <input type="submit" id="submit" value="Submit">
-    </form>  
+    </form>
 </body>
 </html>

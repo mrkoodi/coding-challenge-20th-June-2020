@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 15px/1.5 Arial, Helvetica, "Lato", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+header#header {
+  width: 100%;
+  border-bottom: 2px solid rgba(0,0,0,0.3);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px 20px 0px;
+}
+
+img#header-img {
+  width: 55px;
+  height: 55px;
+  margin-left: 20px;
+}
+
+nav#nav-bar ul {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+nav#nav-bar ul li {
+  list-style-type: none;
+  padding-left: 15px;
+  color: blues;
+}
+
+nav#nav-bar ul li:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  transition: 0.7S;
+}
+
+nav#nav-bar ul li a {
+  text-decoration: none;
+}
+
+div#productadds {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+}
+
+div#productadds .p1 {
+  width: 17%;
+  height: auto;
+  margin-left: 50px;
+  padding: opx;
+  border: 1px solid blue;
+}
+
+div#productadds .p1:hover {
+  transform: scale(1.03);
+  border-radius: 15px;
+  transition: 0.7s;
+}
+
+div#productadds .p1 img, div#productadds .p1 p, input[type="email"] {
+  width: 100%;
+  padding: 20px;
+}
+
+iframe#video {
+  width: 65%;
+  margin: 10em auto;
+  display: block;
+}
+
+
+form#form {
+  width: 45%;
+  max-height: 150px;
+  margin: 0 auto;
+  display: block;
+  background: blue;
+  padding: 20px;
+  color: white;
+}
