@@ -6,6 +6,7 @@ body {
   font: 15px/1.5 Arial, Helvetica, "Lato", sans-serif;
   padding: 0px;
   margin: 0px;
+  
 }
 
 header#header {
@@ -31,7 +32,7 @@ nav#nav-bar ul {
 nav#nav-bar ul li {
   list-style-type: none;
   padding-left: 15px;
-  color: blues;
+  color:blue;
 }
 
 nav#nav-bar ul li:hover {
@@ -42,6 +43,7 @@ nav#nav-bar ul li:hover {
 
 nav#nav-bar ul li a {
   text-decoration: none;
+  color:yellowgreen;
 }
 
 div#productadds {
