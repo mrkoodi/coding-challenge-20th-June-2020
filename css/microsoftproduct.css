@@ -6,6 +6,7 @@ body {
   font: 15px/1.5 Arial, Helvetica, "Lato", sans-serif;
   padding: 0px;
   margin: 0px;
+  background-color:grey;
   
 }
 
@@ -43,7 +44,7 @@ nav#nav-bar ul li:hover {
 
 nav#nav-bar ul li a {
   text-decoration: none;
-  color:yellowgreen;
+  color:blue;
 }
 
 div#productadds {
